@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            margin: 30px;
+        }
+        td {
+            width: 9.1%;
+            background-color: aquamarine;
+            height: 50px;
+            left: 10px;
+        }
+
+        /* reference: https://stackoverflow.com/questions/54792102/css-ring-with-background-and-percentage-border-width/54792560#54792560 */
+        .outer {
+            width: 100%;
+            height: 50px;
+            border-radius: 100%;
+            position: relative;
+            background-color: black;
+            cursor:pointer;
+        }
+        .inner {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            border-radius: 50%;
+            background-color: aquamarine;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 0.5s ease-out;      
+        }
+        .outer:hover .inner {
+            width: 90%;
+            height: 90%;
+        }
+        /*  */
+
+        #red{
+            background-color: red;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #green{
+            background-color: green;
+        }
+        #yellow{
+            background-color: yellow;
+        }
+        #white{
+            background-color: white;
+        }
+        .rotate90 {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+        .rotate180 {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+        .rotate270 {
+            -webkit-transform: rotate(270deg);
+            -moz-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+    </style>
+</head>
+<body>
+    <table border="10">
+        <tr>
+            <td id="red"></td>
+            <td id="red"></td>
+            <td id="white" rowspan="2" colspan="2"></td>
+
+            <!-- Option with static transparent picture of a ring -->
+            <!-- <td style="background-image: url(images/start.png);  background-size: cover;">
+                <img src="images/circle.png" width="100%" height="50px">
+            </td> -->
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <img src="images/start.png" alt="start" width="50" height="50" class="rotate90">
+            </td>
+            <td id="white" rowspan="2" colspan="2"></td>
+            <td id="blue"></td>
+            <td id="blue"></td>
+            
+        </tr>
+        <tr>
+            <td id="red"></td>
+            <td id="red"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="blue"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="blue"></td>
+            <td id="blue"></td>
+        </tr>
+        <tr>
+            <td id="white" rowspan="2" colspan="4"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="blue"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="white" rowspan="2" colspan="4"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="blue"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="images/start.png" alt="start" width="50" height="50"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="blue"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="red"></td>
+            <td id="red"></td>
+            <td id="red"></td>
+            <td id="red"></td>
+            <td id="white"></td>
+            <td id="green"></td>
+            <td id="green"></td>
+            <td id="green"></td>
+            <td id="green"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="yellow"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td><img src="images/start1.png" alt="start" width="50" height="50" class="rotate180"></td>
+        </tr>
+        <tr>
+            <td id="white" rowspan="2" colspan="4"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="yellow"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="white" rowspan="2" colspan="4"></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="yellow"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="yellow"></td>
+            <td id="yellow"></td>
+            <td id="white" rowspan="2" colspan="2"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="yellow"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="white" rowspan="2" colspan="2"></td>
+            <td id="green"></td>
+            <td id="green"></td>
+        </tr>
+        <tr>
+            <td id="yellow"></td>
+            <td id="yellow"></td>
+            <td><img src="images/start1.png" alt="start" width="50" height="50" class="rotate270"></td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td>
+                <div class="outer">
+                    <div class="inner"></div>
+              </div>
+            </td>
+            <td id="green"></td>
+            <td id="green"></td>        
+        </tr>
+    </table>
+</body>
+</html>
