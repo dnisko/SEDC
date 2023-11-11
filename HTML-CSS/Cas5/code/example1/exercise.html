@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <legend>Testform</legend>
+        <label for="name">Name</label>
+        <input type="text" name="user-name" id="name" />
+        <br />
+
+        <label for="password">Password</label>
+        <input type="password" name="user-password" id="password" />
+        <br />
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="user-gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <br />
+
+        <input type="radio" name="user-gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <br />
+
+        <label for="continent">Continent</label>
+        <select name="continent" id="continents" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="europe">Europe</option>
+          <option value="asia">Asia</option>
+          <option value="africa">Africa</option>
+          <option value="northAmerica">North America</option>
+          <option value="southAmerica">South America</option>
+          <option value="australia">Australia</option>
+        </select>
+        <br />
+
+        <label for="meals">Meals</label>
+        <input type="checkbox" name="meal" id="breakfast" value="breakfast" />
+        <label for="breakfast">Breakfast</label>
+        <br />
+        <input type="checkbox" name="meal" id="lunch" value="lunch" />
+        <label for="lunch">Lunch</label>
+        <br />
+        <input type="checkbox" name="meal" id="dinner" value="dinner" />
+        <label for="dinner">Dinner</label>
+        <br />
+
+        <label for="remark">Remarks</label>
+        <textarea name="remark" id="remarks" cols="50" rows="5"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Send" />
+        <input type="submit" value="Cancel" />
+      </fieldset>
+    </form>
+  </body>
+</html>

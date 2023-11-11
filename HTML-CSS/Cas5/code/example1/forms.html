@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <label for="username">Username: </label>
+      <input type="text" id="username" required placeholder="Username_here" />
+      <br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="Password_here"
+      />
+      <br />
+      <input type="submit" value="Log In" />
+    </form>
+    <br />
+    <br />
+    <form action="" method="post">
+      <label for="story">Tell us your story: </label>
+      <br />
+      <textarea name="story" id="story" cols="40" rows="10"></textarea>
+      <br />
+      <button type="submit">Send Message</button>
+    </form>
+
+    <br />
+    <br />
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Radio inputs</legend>
+        <p>Please select your genre:</p>
+
+        <input type="radio" name="music-genre" id="rock" value="rock" />
+        <label for="rock">Rock</label>
+        <br />
+        <input type="radio" name="music-genre" id="pop" value="pop" />
+        <label for="pop">Pop</label>
+        <br />
+        <input type="radio" name="music-genre" id="jazz" value="jazz" />
+        <label for="jazz">Jazz</label>
+      </fieldset>
+
+      <br />
+      <br />
+      <fieldset>
+        <legend>Checkbox input</legend>
+        <p>Please select your favourite music streaming service(s):</p>
+
+        <input type="checkbox" name="service" id="apple" value="AppleMusic" />
+        <label for="apple">AppleMusic</label>
+
+        <input
+          type="checkbox"
+          name="service"
+          id="spotify"
+          value="SpotifyMusic"
+        />
+        <label for="spotify">Spotify</label>
+
+        <input type="checkbox" name="service" id="google" value="GoogleMusic" />
+        <label for="google">GoogleMusic</label>
+      </fieldset>
+
+      <br />
+      <br />
+      <fieldset>
+        <legend>Select input</legend>
+        <label for="devices">What device do you listen to music on? </label>
+        <select name="device" id="devices" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="Phone">Phone</option>
+          <option value="Desktop">Desktop PC</option>
+          <option value="RecordPlayer">Record Player</option>
+        </select>
+
+        <br />
+        <br />
+
+        <label for="instruments">Do you play any of these instruments? </label>
+        <select name="instruments" id="instruments" multiple required>
+          <option value="Guitar">Guitar</option>
+          <option value="Drums">Drums</option>
+          <option value="Keybords">Keybords</option>
+          <option value="Bass">Bass</option>
+        </select>
+
+        <input type="submit" value="Select" />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <label for="song">Upload your song in .mp3 format: </label>
+      <br />
+      <input type="file" name="user-song" id="user-song" />
+      <input type="hidden" name="form" value="music-form" />
+    </form>
+
+    <br />
+    <br />
+
+    <form action="" method="psot">
+      <label for="email">Email: </label>
+      <input type="email" name="personal-email" id="email" />
+
+      <br />
+      <br />
+
+      <label for="website">Your website: </label>
+      <input type="url" name="user-website" id="website" />
+
+      <br />
+      <br />
+
+      <label for="phone">Phone Number: </label>
+      <input type="tel" name="tel-number" id="phone" />
+
+      <br />
+      <br />
+
+      <label for="classes">Number of classes (5-10): </label>
+      <input type="number" name="no-classes" min="5" max="10" />
+
+      <br />
+      <br />
+
+      <label for="birthday">Birthday</label>
+      <input type="date" id="birthday" name="user-birthday" />
+
+      <br />
+      <br />
+
+      <label for="timeframe">Book a timeframe</label>
+      <input type="time" name="class-time" id="timeframe" />
+
+      <br />
+      <br />
+
+      <label for="search">Search for anything</label>
+      <input type="search" name="search-query" id="search" />
+
+      <br />
+      <br />
+
+      <label for="color">Choose your favourite color</label>
+      <input type="color" name="favourite-color" id="color" />
+
+      <br />
+      <br />
+
+      <label for="volume">Volume: </label>
+      <input type="range" name="volume-control" id="volume" min="0" max="10" />
+
+      <br />
+      <br />
+
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
