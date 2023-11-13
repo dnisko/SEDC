@@ -1,0 +1,19 @@
+.colorName {
+  background-color: blue;
+  color: red;
+}
+
+.hexCode {
+  background-color: #c70c02;
+  color: blue;
+}
+
+.rgbCode {
+  background-color: rgb(201, 235, 52, 0.9);
+  color: rgba(65, 0, 170, 0.9);
+}
+
+.hslCode {
+  background-color: hsl(310, 98%, 39%, 0.7);
+  color: hsl(192, 100%, 49%);
+}

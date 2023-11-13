@@ -1,0 +1,38 @@
+* {
+  background-color: chartreuse;
+}
+
+h1 {
+  background-color: blue;
+}
+
+article {
+  color: brown !important;
+}
+
+#article-h5 {
+  color: linen;
+  font-size: larger;
+}
+
+li > a {
+  background-color: lightgrey;
+}
+
+li a {
+  background-color: lightgrey;
+}
+
+#article-h5 + p {
+  background-color: lightslategrey;
+}
+
+#myH1Element ~ p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkred;
+}
+
+#footer {
+  font-size: larger;
+  font-weight: bold;
+}
