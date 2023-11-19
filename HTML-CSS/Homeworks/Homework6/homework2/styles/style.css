@@ -1,43 +1,9 @@
+@import url(colors.css);
+
 div
 {
-    
     display: inline-block;
     background-color: antiquewhite;
-}
-
-.red
-{
-    background-color: red;
-}
-
-.yellow
-{
-    background-color: yellow;
-}
-
-.lightblue
-{
-    background-color: lightblue;
-}
-
-.blue
-{
-    background-color: blue;
-}
-
-.antiquewhite
-{
-    background-color: antiquewhite;
-}
-
-.black
-{
-    background-color: black;
-}
-
-.grey
-{
-    background-color: grey;
 }
 
 #parrentTop
@@ -46,11 +12,6 @@ div
     height: 600px;
     width: 600px;
 }
-
-/* #parrentMiddle
-{
-    border: 4px solid black;
-} */
 
 /*  
     HEIGHT
@@ -138,7 +99,6 @@ div
     left: 10%;
     width: 65%;
     bottom: 40%;
-    /* background-color: red; */
 }
 
 #upperMiddleRight
