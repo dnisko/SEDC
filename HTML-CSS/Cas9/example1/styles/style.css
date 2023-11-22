@@ -1,0 +1,111 @@
+h1
+{
+    background-color: red;
+    color: #fff;
+}
+
+/* Mobile first approach */
+@media screen and (min-width: 600px)
+{
+    h1
+    {
+        width: 400px;
+        background-color: rebeccapurple;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop first approack */
+
+@media screen and (max-width: 440px)
+{
+    h1
+    {
+        background-color: aqua;
+        color: black;
+    }
+}
+
+/* Responsive layout example */
+
+.layoutExample
+{
+    background-color: lightgray;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.layoutExample > div:nth-child(1)
+{
+    width: 20%;
+    background-color: lime;
+    height: 100%;
+    float: left;
+}
+
+.layoutExample > div:nth-child(2)
+{
+    width: 40%;
+    background-color: orange;
+    height: 100%;
+}
+
+.layoutExample > div:nth-child(3)
+{
+    width: 40%;
+    background-color: purple;
+    height: 100%;
+    float: right;
+}
+
+@media screen and (max-width: 780px) {
+    .layoutExample
+    {
+        height: 600px;
+    }
+    .layoutExample > div:nth-child(1)
+    {
+        width: 40%;
+        height: 50%;
+    }
+
+    .layoutExample > div:nth-child(2)
+    {
+        width: 60%;
+        height: 50%;
+    }
+
+    .layoutExample > div:nth-child(3)
+    {
+        width: 100%;
+        height: 50%;
+        float: none;
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .layoutExample
+    {
+        height: 800px;
+    }
+
+    .layoutExample > div:nth-child(1)
+    {
+        float: none;
+        width: 100%;
+        height: 50%;
+    }
+
+    .layoutExample > div:nth-child(2)
+    {
+        float: none;
+        width: 100%;
+        height: 50%;
+    }
+
+    .layoutExample > div:nth-child(3)
+    {
+        height: 50%;
+    }
+}

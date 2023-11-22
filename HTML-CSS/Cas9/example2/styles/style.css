@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #333;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1
+{
+    color: white;
+    padding: 3em 0;
+    font-family: 30px;
+}
+
+article
+{
+    background-color: white;
+    padding: 5em;
+    margin: 20px 0;
+}
+
+h2
+{
+    font-size: 10px;
+    color: #838383;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+
+.parent
+{
+    border: 5px solid lightcoral;
+}
+
+.item
+{
+    background-color: deepskyblue;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 5px;
+}
+
+.exampleFlex
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+.exampleDirection
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.exampleDirection .item
+{
+    width: 50%;
+}
+
+.exampleWrap
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.exampleWrap .item
+{
+    width: 150px;
+}
+
+.exampleJustify
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.examleJustify .item
+{
+    width: 50px;
+}
+
+.exampleAlignItems
+{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exampleAlignItems .item
+{
+    width: 50px;
+    height: 50px;
+}
+
+.exampleAlignContent
+{
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.exampleAlignContent .item
+{
+    width: 200px;
+    height: 30px;
+}
+
+.exampleOrder
+{
+    display: flex;
+}
+
+.exampleOrder .item
+{
+    width: 50px;
+}
+
+.exampleOrder .item:nth-child(1)
+{
+    order: 3;
+}
+
+.exampleOrder .item:nth-child(2)
+{
+    order: 5;
+}
+
+.exampleOrder .item:nth-child(3)
+{
+    order: 1;
+}
+
+.exampleOrder .item:nth-child(4)
+{
+    order: 2;
+}
+
+.exampleOrder .item:nth-child(5)
+{
+    order: 6;
+}
+
+.exampleOrder .item:nth-child(6)
+{
+    order: 4;
+}
+
+.exampleGrow
+{
+    display: flex;
+}
+
+.exampleFlow .item
+{
+    flex-grow: 1;
+}
+
+.exampleGrow .item:nth-child(2)
+{
+    flex-grow: 2;
+}
+.exampleGrow .item:nth-child(5)
+{
+    flex-grow: 3;
+}
+
+.exampleShrink
+{
+    display: flex;
+}
+
+.exampleShrink .item
+{
+    width: 150px;
+    flex-shrink: 1;
+}
+
+.exampleShrink .item:nth-child(3)
+{
+    flex-shrink: 2;
+}
+
+.exampleBasis
+{
+    display: flex;
+}
+
+.exampleBasis .item
+{
+    flex: 1 1 150px;
+}
+
+.exampleBasis .item:nth-child(2)
+{
+    flex: 2 1 150px;
+}
