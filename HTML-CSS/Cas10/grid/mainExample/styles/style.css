@@ -1,0 +1,49 @@
+.container
+{
+    display: grid;
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+    gap: 20px;
+    /* grid-template-columns: 25% 75%; */
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+}
+
+.child
+{
+    border: 1px solid black;
+}
+
+.containerInline
+{
+    display: inline-grid;
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+.childInline1
+{
+    width: 70px;
+    /* height: 50px; */
+}
+
+.childInline2
+{
+    width: 100px;
+}
+
+.containerRepeat
+{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.containerRepeat > div
+{
+    border: 1px solid black;
+}

@@ -1,0 +1,40 @@
+.container
+{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    padding: 8px;
+    gap: 8px;
+    background-color: aquamarine;
+}
+
+.btnOne
+{
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.btnTwo
+{
+    grid-column: 3;
+    grid-row: 1/span 3;
+}
+
+.btnTree
+{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.btnFour
+{
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.btnFive
+{
+    grid-column: 2/span 2;
+    grid-row: 4/span 2;
+}
