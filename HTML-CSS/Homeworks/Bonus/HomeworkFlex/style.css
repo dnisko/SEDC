@@ -1,0 +1,189 @@
+@import url(colors.css);
+.container
+{
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    flex: 1 1 auto;
+}
+
+.i1
+{
+    border-right: 5px solid black;
+    width: 20%;
+    height: 10%;
+}
+
+ .i2
+{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    width: 10%;
+    height: 29%;
+}
+
+.i3
+{
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    width: 10%;
+    height: 39.3%;
+}
+
+.i4
+{
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    width: 10%;
+    height: 19%;
+}
+
+.i5
+{
+    border-right: 5px solid black;
+    width: 55%;
+    height: 10%;
+}
+
+.i6
+{
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    margin-left: -10%;
+    width: 65%;
+    height: 59.3%;
+}
+
+.middleFlex
+{
+    margin-left: -10%;
+    width: 65%;
+    height: 29%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.middleFlexLeft
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.i7
+{
+    height: 80%;
+}
+
+.i8
+{
+    height: 20%;
+}
+.middleFlexRight
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.i13
+{
+    border-right: 5px solid black;
+    width: 100%;
+    height: 55%;
+}
+
+.i14
+{
+    border-top: 4px solid black;
+    border-right: 5px solid black;
+    width: 100%;
+    height: 25%;
+}
+
+.i15
+{
+    border-right: 5px solid black;
+    width: 100%;
+    height: 10%;
+}
+
+.i17
+{
+    border-left: 5px solid black;
+    width: 165%;
+    height: 7.7%;
+}
+
+.rightFlex
+{
+    border-right: 4px solid black;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+
+}
+
+.i9
+{
+    height: 10%;
+}
+
+.i10
+{
+    border-top: 4px solid black;
+    height: 19.3%;
+}
+
+.i11-12
+{
+    border-top: 4px solid black;
+    height: 29.3%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+
+.i11
+{
+    border-right: 5px solid black;
+    width: 50%;
+}
+
+.i12
+{
+    width: 50%;
+}
+.i18
+{
+    border-top: 5px solid black;
+    height: 20%;
+}
+
+.i19
+{
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    height: 15.2%;
+}
+
+.i16
+{  
+    width: 5%;
+    height: 80.6%;
+}
+
+.i20
+{
+    border-top: 5px solid black;
+    width: 5%;
+    height: 18.5%;
+}

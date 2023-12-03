@@ -1,0 +1,146 @@
+@import url(colors.css);
+
+.container
+{
+    display: grid;
+    grid-template-areas: 
+    'one    one     five    five    five        five        five        nine        nine        sixteen'
+    'one    one     five    five    five        five        five        nine        nine        sixteen'
+    
+    'two    six     six     six     six         six         six         ten         ten         sixteen'
+    'two    six     six     six     six         six         six         ten         ten         sixteen'
+    'two    six     six     six     six         six         six         ten         ten         sixteen'
+    'two    six     six     six     six         six         six         ten         ten         sixteen'
+    'two    six     six     six     six         six         six         eleven      twelve      sixteen'
+    'two    six     six     six     six         six         six         eleven      twelve      sixteen'
+    
+    'three  six     six     six     six         six         six         eleven      twelve      sixteen'
+    'three  six     six     six     six         six         six         eleven      twelve      sixteen'
+    'three  six     six     six     six         six         six         eleven      twelve      sixteen'
+    'three  six     six     six     six         six         six         eleven      twelve      sixteen'
+    'three  seven   seven   seven   thirteen    thirteen    thirteen    eighteen    eighteen    sixteen'
+    'three  seven   seven   seven   thirteen    thirteen    thirteen    eighteen    eighteen    sixteen'
+    
+    'four   seven   seven   seven   thirteen    thirteen    thirteen    eighteen    eighteen    sixteen'
+    'four   seven   seven   seven   thirteen    thirteen    thirteen    eighteen    eighteen    sixteen'
+    'four   seven   seven   seven   fourteen    fourteen    fourteen    nineteen    nineteen    twenty'
+    'four   seven   seven   seven   fourteen    fourteen    fourteen    nineteen    nineteen    twenty'
+    'four   eight   eight   eight   fifteen     fifteen     fifteen     nineteen    nineteen    twenty'
+    'four   eight   eight   eight   seventeen   seventeen   seventeen   seventeen   seventeen   twenty';
+
+}
+.container > div
+{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.item1
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: one;
+}
+.item2
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: two;
+} 
+.item3
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: three;
+}
+.item4 
+{
+    border-right: 4px solid black;
+    grid-area: four;
+}
+.item5
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: five;
+}
+.item6
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: six;
+}
+.item7
+{
+    grid-area: seven;
+}
+.item8
+{
+    border-right: 4px solid black;
+    grid-area: eight;
+}
+.item9
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: nine;
+}
+.item10
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: ten;
+}
+.item11
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: eleven;
+}
+.item12
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: twelve;
+}
+.item13
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: thirteen;
+}
+.item14
+{
+    border-right: 4px solid black;
+    grid-area: fourteen;
+}
+.item15
+{
+    grid-area: fifteen;
+} 
+.item16
+{
+    border-bottom: 4px solid black;
+    grid-area: sixteen;
+}
+.item17
+{
+    border-right: 4px solid black;
+    grid-area: seventeen;
+}
+.item18
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: eighteen;
+}
+.item19
+{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    grid-area: nineteen;
+}
+.item20
+{
+    grid-area: twenty;
+} 
