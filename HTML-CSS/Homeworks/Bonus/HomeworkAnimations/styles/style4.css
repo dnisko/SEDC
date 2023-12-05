@@ -1,0 +1,84 @@
+.front4
+{
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+
+    animation: loading4 8s 2s ease-in forwards infinite;
+}
+.behind4
+{
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #eb7164;
+    color: white;
+    position: absolute;
+    z-index:-1;
+}
+.ballArround
+{
+    margin: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    position: absolute;
+    z-index:-1;
+
+    animation: moveAround 2s 2s ease-in forwards infinite;
+}
+
+@keyframes loading4 {
+    0% {
+        width: 0;
+    }
+    70% {
+        width: 50px;
+        opacity: 1;
+    }
+    99% {
+        width: 50px;
+        opacity: 0;
+    }
+    100% {
+        width: 50px;
+        opacity: 0;
+    }
+  }
+
+  @keyframes moveAround
+  {
+    0%
+    {
+      transform: translateX(0);
+    }
+  
+    25%
+    {
+      transform: translateX(450%);
+    }
+  
+    50%
+    {
+      transform: translate(450%, 450%);
+    }
+  
+    75%
+    {
+        transform: translateY(450%);
+    }
+  
+    100%
+    {
+        transform: translateY(0);
+    }
+  }
