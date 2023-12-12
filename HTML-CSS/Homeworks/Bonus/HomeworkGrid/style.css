@@ -2,6 +2,8 @@
 
 .container
 {
+    height: 600px;
+    width: 600px;
     display: grid;
     grid-template-areas: 
     'one    one     five    five    five        five        five        nine        nine        sixteen'
