@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <label for="txtFirstName">First name:</label>
+            </td>
+            <td>
+                <input type="text" id="txtFirstName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="txtLastName">Last name:</label>
+            </td>
+            <td>
+                <input type="text" id="txtLastName">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phoneNo">Phone number:</label>
+            </td>
+            <td>
+                <input type="text" id="phoneNo">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                <input type="button" id="btnSave" value="Save" style="width: 30%;">
+            </td>
+        </tr>
+    </table>
+    <table id="results"></table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <label for="txtToDo">Add task to ToDo list:</label>
+            </td>
+            <td>
+                <input type="text" id="txtToDo">
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" style="text-align: right;">
+                <input type="button" id="btnAdd" value="Add" style="width: 30%;">
+            </td>
+        </tr>
+    </table>
+    <div id="divToDoList">
+
+    </div>
+    <!-- <input type="checkbox" name="" id=""> -->
+    <script src="script.js"></script>
+</body>
+</html>
