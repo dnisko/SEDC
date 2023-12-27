@@ -1,0 +1,28 @@
+#container
+{
+    display: grid;
+    height: 60vh;
+    width: 90wh;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.joke-container
+{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.question
+{
+    font-weight: 600;
+    color: red;
+    padding: 0 5px;
+}
+
+.answer
+{
+    font-weight: 700;
+    color: darkgreen;
+    padding: 0 5px;
+}
